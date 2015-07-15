@@ -1,11 +1,3 @@
-//
-//  ImpulseTests.swift
-//  ImpulseTests
-//
-//  Created by Jasdev Singh on 7/14/15.
-//  Copyright (c) 2015 Jasdev. All rights reserved.
-//
-
 import UIKit
 import XCTest
 

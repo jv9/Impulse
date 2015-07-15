@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7838E12A5C3B33C1532E85F4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AA578B731B55F450000BDC17 /* IMPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA578B721B55F450000BDC17 /* IMPGradientView.swift */; };
+		AA578B761B55F9AE000BDC17 /* UIColor+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA578B751B55F9AE000BDC17 /* UIColor+Constants.swift */; };
 		AAE7F38B1B55E607005DC836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F38A1B55E607005DC836 /* AppDelegate.swift */; };
-		AAE7F38D1B55E607005DC836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F38C1B55E607005DC836 /* ViewController.swift */; };
-		AAE7F3901B55E607005DC836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F38E1B55E607005DC836 /* Main.storyboard */; };
+		AAE7F38D1B55E607005DC836 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F38C1B55E607005DC836 /* AgeViewController.swift */; };
+		AAE7F3901B55E607005DC836 /* Age.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F38E1B55E607005DC836 /* Age.storyboard */; };
 		AAE7F3921B55E607005DC836 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F3911B55E607005DC836 /* Images.xcassets */; };
 		AAE7F3951B55E607005DC836 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F3931B55E607005DC836 /* LaunchScreen.xib */; };
 		AAE7F3A11B55E607005DC836 /* ImpulseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F3A01B55E607005DC836 /* ImpulseTests.swift */; };
@@ -29,11 +31,13 @@
 /* Begin PBXFileReference section */
 		266DCBBE2DF713C20EEDB3FB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA578B721B55F450000BDC17 /* IMPGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IMPGradientView.swift; path = Views/IMPGradientView.swift; sourceTree = "<group>"; };
+		AA578B751B55F9AE000BDC17 /* UIColor+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Constants.swift"; sourceTree = "<group>"; };
 		AAE7F3851B55E607005DC836 /* Impulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE7F3891B55E607005DC836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE7F38A1B55E607005DC836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAE7F38C1B55E607005DC836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AAE7F38F1B55E607005DC836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE7F38C1B55E607005DC836 /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		AAE7F38F1B55E607005DC836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Age.storyboard; sourceTree = "<group>"; };
 		AAE7F3911B55E607005DC836 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AAE7F3941B55E607005DC836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AAE7F39A1B55E607005DC836 /* ImpulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpulseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +82,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA578B6E1B55F29A000BDC17 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAE7F38C1B55E607005DC836 /* AgeViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AA578B6F1B55F2A9000BDC17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA578B721B55F450000BDC17 /* IMPGradientView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AA578B711B55F2BC000BDC17 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AAE7F38E1B55E607005DC836 /* Age.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		AA578B741B55F996000BDC17 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA578B751B55F9AE000BDC17 /* UIColor+Constants.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		AAE7F37C1B55E607005DC836 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +137,11 @@
 		AAE7F3871B55E607005DC836 /* Impulse */ = {
 			isa = PBXGroup;
 			children = (
+				AA578B741B55F996000BDC17 /* Extensions */,
+				AA578B711B55F2BC000BDC17 /* Storyboards */,
+				AA578B6F1B55F2A9000BDC17 /* Views */,
+				AA578B6E1B55F29A000BDC17 /* View Controllers */,
 				AAE7F38A1B55E607005DC836 /* AppDelegate.swift */,
-				AAE7F38C1B55E607005DC836 /* ViewController.swift */,
-				AAE7F38E1B55E607005DC836 /* Main.storyboard */,
 				AAE7F3911B55E607005DC836 /* Images.xcassets */,
 				AAE7F3931B55E607005DC836 /* LaunchScreen.xib */,
 				AAE7F3881B55E607005DC836 /* Supporting Files */,
@@ -219,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE7F3901B55E607005DC836 /* Main.storyboard in Resources */,
+				AAE7F3901B55E607005DC836 /* Age.storyboard in Resources */,
 				AAE7F3951B55E607005DC836 /* LaunchScreen.xib in Resources */,
 				AAE7F3921B55E607005DC836 /* Images.xcassets in Resources */,
 			);
@@ -287,8 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE7F38D1B55E607005DC836 /* ViewController.swift in Sources */,
+				AA578B731B55F450000BDC17 /* IMPGradientView.swift in Sources */,
+				AAE7F38D1B55E607005DC836 /* AgeViewController.swift in Sources */,
 				AAE7F38B1B55E607005DC836 /* AppDelegate.swift in Sources */,
+				AA578B761B55F9AE000BDC17 /* UIColor+Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,12 +351,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AAE7F38E1B55E607005DC836 /* Main.storyboard */ = {
+		AAE7F38E1B55E607005DC836 /* Age.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AAE7F38F1B55E607005DC836 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Age.storyboard;
 			sourceTree = "<group>";
 		};
 		AAE7F3931B55E607005DC836 /* LaunchScreen.xib */ = {
