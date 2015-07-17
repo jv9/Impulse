@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F6a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="phH-Xq-gnw">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="c3r-df-bCp">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="phH-Xq-gnw" customClass="SettingsViewController" customModule="Impulse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EJx-rx-zFw"/>
+                        <viewControllerLayoutGuide type="bottom" id="ht2-gK-DIk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YeJ-Q7-RDC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FU5-QS-xDR">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fLq-zn-d3G">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhc-uk-HNi" customClass="SpringView" customModule="Spring">
+                                <rect key="frame" x="16" y="147" width="288" height="275"/>
+                                <subviews>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="3Vg-2M-ctG" customClass="IMPWhiteColoredDatePicker" customModule="Impulse" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="57" width="272" height="162"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Jq6-lU-QlB"/>
+                                            <constraint firstAttribute="width" constant="272" id="WBD-yJ-eti"/>
+                                        </constraints>
+                                        <date key="date" timeIntervalSinceReferenceDate="458700776.891572">
+                                            <!--2015-07-16 00:52:56 +0000-->
+                                        </date>
+                                    </datePicker>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Q0-Gi-2B0">
+                                        <rect key="frame" x="255" y="242" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="Uef-q0-eWf"/>
+                                            <constraint firstAttribute="height" constant="25" id="g3x-qC-lN4"/>
+                                        </constraints>
+                                        <state key="normal" image="confirm">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="confirmPressed:" destination="phH-Xq-gnw" eventType="touchUpInside" id="v1t-4w-v8J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpB-ht-EVN">
+                                        <rect key="frame" x="8" y="247" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="eNM-LJ-txg"/>
+                                            <constraint firstAttribute="height" constant="20" id="y9g-4p-UAf"/>
+                                        </constraints>
+                                        <state key="normal" image="cancel">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelPressed:" destination="phH-Xq-gnw" eventType="touchUpInside" id="fqn-8a-bgw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.22189241647720337" blue="0.31640610098838806" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="VpB-ht-EVN" secondAttribute="bottom" constant="8" id="Hb6-WN-pZV"/>
+                                    <constraint firstAttribute="centerX" secondItem="3Vg-2M-ctG" secondAttribute="centerX" id="Jbk-8Z-GYN"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Q0-Gi-2B0" secondAttribute="bottom" constant="8" id="Rjn-J1-3Zy"/>
+                                    <constraint firstAttribute="centerY" secondItem="3Vg-2M-ctG" secondAttribute="centerY" id="UdJ-Fo-FdY"/>
+                                    <constraint firstAttribute="height" constant="275" id="jcd-Zd-43E"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Q0-Gi-2B0" secondAttribute="trailing" constant="8" id="p3g-CG-aeu"/>
+                                    <constraint firstItem="VpB-ht-EVN" firstAttribute="leading" secondItem="qhc-uk-HNi" secondAttribute="leading" constant="8" id="pv3-9a-vZG"/>
+                                    <constraint firstAttribute="width" constant="288" id="zE4-Dw-arq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="zoomIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FU5-QS-xDR" firstAttribute="leading" secondItem="YeJ-Q7-RDC" secondAttribute="leading" id="HnK-YW-grg"/>
+                            <constraint firstAttribute="centerX" secondItem="qhc-uk-HNi" secondAttribute="centerX" id="N0Z-Ji-nTg"/>
+                            <constraint firstAttribute="trailing" secondItem="FU5-QS-xDR" secondAttribute="trailing" id="OFa-gH-xNb"/>
+                            <constraint firstAttribute="bottom" secondItem="FU5-QS-xDR" secondAttribute="bottom" id="Tvc-cD-p7K"/>
+                            <constraint firstItem="FU5-QS-xDR" firstAttribute="top" secondItem="EJx-rx-zFw" secondAttribute="bottom" id="icX-Ao-ksI"/>
+                            <constraint firstAttribute="centerY" secondItem="qhc-uk-HNi" secondAttribute="centerY" constant="-0.5" id="mXn-mK-fEH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmButton" destination="0Q0-Gi-2B0" id="LMt-7S-rKz"/>
+                        <outlet property="containerView" destination="qhc-uk-HNi" id="XfC-iS-TpG"/>
+                        <outlet property="datePicker" destination="3Vg-2M-ctG" id="Pld-8G-bPV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LN0-5g-ube" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159.46666666666667" y="397.60000000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="24" height="24"/>
+        <image name="confirm" width="31" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

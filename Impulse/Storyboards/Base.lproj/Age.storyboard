@@ -18,7 +18,26 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5J8-G3-gAB" customClass="IMPGradientView" customModule="Impulse" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYy-UJ-I5o">
+                                        <rect key="frame" x="8" y="508" width="30" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="LmV-sS-bfv"/>
+                                            <constraint firstAttribute="height" constant="32" id="n7t-CV-3pC"/>
+                                        </constraints>
+                                        <state key="normal" image="settings">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="settingsPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="spm-3B-RUq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="pYy-UJ-I5o" secondAttribute="bottom" constant="8" id="kxw-At-5Qu"/>
+                                    <constraint firstItem="pYy-UJ-I5o" firstAttribute="leading" secondItem="5J8-G3-gAB" secondAttribute="leading" constant="8" id="m3l-KT-34K"/>
+                                </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuL-qw-2Ky">
                                 <rect key="frame" x="137" y="266" width="48" height="35"/>
@@ -47,6 +66,9 @@
             <point key="canvasLocation" x="266.66666666666669" y="440.19999999999999"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="settings" width="50" height="53"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
