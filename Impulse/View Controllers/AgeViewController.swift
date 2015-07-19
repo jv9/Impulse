@@ -40,6 +40,9 @@ class AgeViewController: UIViewController {
     }
 
     private func scheduleTimer() {
+        // Invalidate any previous timer
+        timer?.invalidate()
+
         timer = NSTimer(timeInterval: 0.03, target: self, selector: "timerFired", userInfo: nil, repeats: true)
         NSRunLoop.currentRunLoop().addTimer(timer!, forMode: NSDefaultRunLoopMode)
     }
@@ -49,6 +52,7 @@ class AgeViewController: UIViewController {
 extension AgeViewController: SettingsDelegate {
     func setBirthday(date: NSDate) {
         defaults.setObject(date, forKey: defaultsKeyForAge)
+        defaults.synchronize()
         scheduleTimer()
     }
 }

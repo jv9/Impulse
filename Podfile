@@ -5,3 +5,7 @@ use_frameworks!
 pod 'Reveal-iOS-SDK', :configurations => ['Debug']
 pod 'Spring', '~> 1.0.3'
 pod 'Timepiece'
+
+target :ImpulseExtension, :exclusive => true do
+    pod 'Timepiece'
+end
