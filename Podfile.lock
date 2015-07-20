@@ -1,7 +1,7 @@
 PODS:
   - Reveal-iOS-SDK (1.5.1)
   - Spring (1.0.3)
-  - Timepiece (0.3.4)
+  - Timepiece (0.4.0)
 
 DEPENDENCIES:
   - Reveal-iOS-SDK
@@ -11,6 +11,6 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Reveal-iOS-SDK: c9c55cad2729c85f6ced415f1b21857c9a2d8ef9
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
-  Timepiece: bfe018a2754a7ae6b2b7ab683a90da45c28e32a0
+  Timepiece: d38302bf6fce6146e9d8feb289e0837811ee1342
 
 COCOAPODS: 0.37.2
