@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F44A0E980B42439713DB7F4 /* Pods_Impulse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77131B73B04DB9352E1584AD /* Pods_Impulse.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		516F79A569484218364C3D53 /* Pods_ImpulseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75A30856F517DA1B21EF7ED /* Pods_ImpulseExtension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		585069D057FA269DC01EE0B5 /* Pods_Impulse_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCE07E13E708E4D617B0244 /* Pods_Impulse_WatchKit_App.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5917E87EEFDFF66FE25BFCD7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		7838E12A5C3B33C1532E85F4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7849F41D2BBC29AC4DEE1878 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9A8A217E1B1B32E33F51440C /* Pods_Impulse_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890EC9FFB746DFB6AA1F917 /* Pods_Impulse_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AA4D064E1B5C0AE6001F3E86 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D064D1B5C0AE6001F3E86 /* InterfaceController.swift */; };
 		AA4D06501B5C0AE6001F3E86 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D064F1B5C0AE6001F3E86 /* GlanceController.swift */; };
@@ -20,6 +23,59 @@
 		AA4D06631B5C0AE7001F3E86 /* Impulse WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA4D06491B5C0AE6001F3E86 /* Impulse WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA578B731B55F450000BDC17 /* IMPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA578B721B55F450000BDC17 /* IMPGradientView.swift */; };
 		AA578B761B55F9AE000BDC17 /* UIColor+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA578B751B55F9AE000BDC17 /* UIColor+Constants.swift */; };
+		AA8883681B61B5E2005223DD /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883601B61B5E2005223DD /* Duration.swift */; };
+		AA8883691B61B5E2005223DD /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883611B61B5E2005223DD /* Int+Timepiece.swift */; };
+		AA88836A1B61B5E2005223DD /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883621B61B5E2005223DD /* NSCalendar+Timepiece.swift */; };
+		AA88836B1B61B5E2005223DD /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883631B61B5E2005223DD /* NSCalendarUnit+Timepiece.swift */; };
+		AA88836C1B61B5E2005223DD /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883641B61B5E2005223DD /* NSDate+Timepiece.swift */; };
+		AA88836D1B61B5E2005223DD /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883651B61B5E2005223DD /* NSDateComponents+Timepiece.swift */; };
+		AA88836E1B61B5E2005223DD /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883661B61B5E2005223DD /* NSTimeInterval+Timepiece.swift */; };
+		AA88836F1B61B5E2005223DD /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883671B61B5E2005223DD /* String+Timepiece.swift */; };
+		AA8883791B61B624005223DD /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883711B61B624005223DD /* Duration.swift */; };
+		AA88837A1B61B624005223DD /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883721B61B624005223DD /* Int+Timepiece.swift */; };
+		AA88837B1B61B624005223DD /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883731B61B624005223DD /* NSCalendar+Timepiece.swift */; };
+		AA88837C1B61B624005223DD /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883741B61B624005223DD /* NSCalendarUnit+Timepiece.swift */; };
+		AA88837D1B61B624005223DD /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883751B61B624005223DD /* NSDate+Timepiece.swift */; };
+		AA88837E1B61B624005223DD /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883761B61B624005223DD /* NSDateComponents+Timepiece.swift */; };
+		AA88837F1B61B624005223DD /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883771B61B624005223DD /* NSTimeInterval+Timepiece.swift */; };
+		AA8883801B61B624005223DD /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883781B61B624005223DD /* String+Timepiece.swift */; };
+		AA88838A1B61B638005223DD /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883821B61B638005223DD /* Duration.swift */; };
+		AA88838B1B61B638005223DD /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883831B61B638005223DD /* Int+Timepiece.swift */; };
+		AA88838C1B61B638005223DD /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883841B61B638005223DD /* NSCalendar+Timepiece.swift */; };
+		AA88838D1B61B638005223DD /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883851B61B638005223DD /* NSCalendarUnit+Timepiece.swift */; };
+		AA88838E1B61B638005223DD /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883861B61B638005223DD /* NSDate+Timepiece.swift */; };
+		AA88838F1B61B638005223DD /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883871B61B638005223DD /* NSDateComponents+Timepiece.swift */; };
+		AA8883901B61B638005223DD /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883881B61B638005223DD /* NSTimeInterval+Timepiece.swift */; };
+		AA8883911B61B638005223DD /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8883891B61B638005223DD /* String+Timepiece.swift */; };
+		AA9FDBC01B61B2D4000E3EF0 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA21B61B2D4000E3EF0 /* AsyncButton.swift */; };
+		AA9FDBC11B61B2D4000E3EF0 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA31B61B2D4000E3EF0 /* AsyncImageView.swift */; };
+		AA9FDBC21B61B2D4000E3EF0 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA41B61B2D4000E3EF0 /* AutoTextView.swift */; };
+		AA9FDBC31B61B2D4000E3EF0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA51B61B2D4000E3EF0 /* BlurView.swift */; };
+		AA9FDBC41B61B2D4000E3EF0 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA61B61B2D4000E3EF0 /* DesignableButton.swift */; };
+		AA9FDBC51B61B2D4000E3EF0 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA71B61B2D4000E3EF0 /* DesignableImageView.swift */; };
+		AA9FDBC61B61B2D4000E3EF0 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA81B61B2D4000E3EF0 /* DesignableLabel.swift */; };
+		AA9FDBC71B61B2D4000E3EF0 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBA91B61B2D4000E3EF0 /* DesignableTabBarController.swift */; };
+		AA9FDBC81B61B2D4000E3EF0 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBAA1B61B2D4000E3EF0 /* DesignableTextField.swift */; };
+		AA9FDBC91B61B2D4000E3EF0 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBAB1B61B2D4000E3EF0 /* DesignableTextView.swift */; };
+		AA9FDBCA1B61B2D4000E3EF0 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBAC1B61B2D4000E3EF0 /* DesignableView.swift */; };
+		AA9FDBCB1B61B2D4000E3EF0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBAD1B61B2D4000E3EF0 /* ImageLoader.swift */; };
+		AA9FDBCC1B61B2D4000E3EF0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA9FDBAE1B61B2D4000E3EF0 /* Info.plist */; };
+		AA9FDBCD1B61B2D4000E3EF0 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBAF1B61B2D4000E3EF0 /* KeyboardLayoutConstraint.swift */; };
+		AA9FDBCE1B61B2D4000E3EF0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB01B61B2D4000E3EF0 /* LoadingView.swift */; };
+		AA9FDBCF1B61B2D4000E3EF0 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9FDBB11B61B2D4000E3EF0 /* LoadingView.xib */; };
+		AA9FDBD01B61B2D4000E3EF0 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB21B61B2D4000E3EF0 /* Misc.swift */; };
+		AA9FDBD11B61B2D4000E3EF0 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB31B61B2D4000E3EF0 /* SoundPlayer.swift */; };
+		AA9FDBD21B61B2D4000E3EF0 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB51B61B2D4000E3EF0 /* Spring.swift */; };
+		AA9FDBD31B61B2D4000E3EF0 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB61B61B2D4000E3EF0 /* SpringAnimation.swift */; };
+		AA9FDBD41B61B2D4000E3EF0 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB71B61B2D4000E3EF0 /* SpringButton.swift */; };
+		AA9FDBD51B61B2D4000E3EF0 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB81B61B2D4000E3EF0 /* SpringImageView.swift */; };
+		AA9FDBD61B61B2D4000E3EF0 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBB91B61B2D4000E3EF0 /* SpringLabel.swift */; };
+		AA9FDBD71B61B2D4000E3EF0 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBBA1B61B2D4000E3EF0 /* SpringTextField.swift */; };
+		AA9FDBD81B61B2D4000E3EF0 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBBB1B61B2D4000E3EF0 /* SpringTextView.swift */; };
+		AA9FDBD91B61B2D4000E3EF0 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBBC1B61B2D4000E3EF0 /* SpringView.swift */; };
+		AA9FDBDA1B61B2D4000E3EF0 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBBD1B61B2D4000E3EF0 /* TransitionManager.swift */; };
+		AA9FDBDB1B61B2D4000E3EF0 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBBE1B61B2D4000E3EF0 /* TransitionZoom.swift */; };
+		AA9FDBDC1B61B2D4000E3EF0 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDBBF1B61B2D4000E3EF0 /* UnwindSegue.swift */; };
 		AAB941F71B5730E200902FF5 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB941F61B5730E200902FF5 /* Settings.storyboard */; };
 		AAB941F91B573BF400902FF5 /* IMPWhiteColoredDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB941F81B573BF400902FF5 /* IMPWhiteColoredDatePicker.swift */; };
 		AAB941FB1B573F4700902FF5 /* UIImage+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB941FA1B573F4700902FF5 /* UIImage+Constants.swift */; };
@@ -34,6 +90,7 @@
 		AAE7F3921B55E607005DC836 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F3911B55E607005DC836 /* Images.xcassets */; };
 		AAE7F3951B55E607005DC836 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F3931B55E607005DC836 /* LaunchScreen.xib */; };
 		AAE7F3A11B55E607005DC836 /* ImpulseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F3A01B55E607005DC836 /* ImpulseTests.swift */; };
+		CFA404090D6ABF3E1EC7BC9E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +144,8 @@
 		2D676818EF918FDBE2F38172 /* Pods-Impulse WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impulse WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Impulse WatchKit Extension/Pods-Impulse WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		3890EC9FFB746DFB6AA1F917 /* Pods_Impulse_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impulse_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		77131B73B04DB9352E1584AD /* Pods_Impulse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impulse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCE07E13E708E4D617B0244 /* Pods_Impulse_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impulse_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4D06491B5C0AE6001F3E86 /* Impulse WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Impulse WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4D064C1B5C0AE6001F3E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4D064D1B5C0AE6001F3E86 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -99,6 +158,60 @@
 		AA4D066A1B5C0FEA001F3E86 /* Impulse WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Impulse WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		AA578B721B55F450000BDC17 /* IMPGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMPGradientView.swift; sourceTree = "<group>"; };
 		AA578B751B55F9AE000BDC17 /* UIColor+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Constants.swift"; sourceTree = "<group>"; };
+		AA8883601B61B5E2005223DD /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Timepiece/Duration.swift; sourceTree = "<group>"; };
+		AA8883611B61B5E2005223DD /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Timepiece/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883621B61B5E2005223DD /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Timepiece/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883631B61B5E2005223DD /* NSCalendarUnit+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSCalendarUnit+Timepiece.swift"; path = "Timepiece/NSCalendarUnit+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883641B61B5E2005223DD /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Timepiece/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883651B61B5E2005223DD /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Timepiece/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883661B61B5E2005223DD /* NSTimeInterval+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSTimeInterval+Timepiece.swift"; path = "Timepiece/NSTimeInterval+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883671B61B5E2005223DD /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Timepiece/String+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883711B61B624005223DD /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Timepiece/Duration.swift; sourceTree = "<group>"; };
+		AA8883721B61B624005223DD /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Timepiece/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883731B61B624005223DD /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Timepiece/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883741B61B624005223DD /* NSCalendarUnit+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSCalendarUnit+Timepiece.swift"; path = "Timepiece/NSCalendarUnit+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883751B61B624005223DD /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Timepiece/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883761B61B624005223DD /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Timepiece/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883771B61B624005223DD /* NSTimeInterval+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSTimeInterval+Timepiece.swift"; path = "Timepiece/NSTimeInterval+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883781B61B624005223DD /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Timepiece/String+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883821B61B638005223DD /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Timepiece/Duration.swift; sourceTree = "<group>"; };
+		AA8883831B61B638005223DD /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Timepiece/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883841B61B638005223DD /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Timepiece/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883851B61B638005223DD /* NSCalendarUnit+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSCalendarUnit+Timepiece.swift"; path = "Timepiece/NSCalendarUnit+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883861B61B638005223DD /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Timepiece/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883871B61B638005223DD /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Timepiece/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883881B61B638005223DD /* NSTimeInterval+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSTimeInterval+Timepiece.swift"; path = "Timepiece/NSTimeInterval+Timepiece.swift"; sourceTree = "<group>"; };
+		AA8883891B61B638005223DD /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Timepiece/String+Timepiece.swift"; sourceTree = "<group>"; };
+		AA9FDBA21B61B2D4000E3EF0 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		AA9FDBA31B61B2D4000E3EF0 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		AA9FDBA41B61B2D4000E3EF0 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		AA9FDBA51B61B2D4000E3EF0 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		AA9FDBA61B61B2D4000E3EF0 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		AA9FDBA71B61B2D4000E3EF0 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		AA9FDBA81B61B2D4000E3EF0 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		AA9FDBA91B61B2D4000E3EF0 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		AA9FDBAA1B61B2D4000E3EF0 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		AA9FDBAB1B61B2D4000E3EF0 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		AA9FDBAC1B61B2D4000E3EF0 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		AA9FDBAD1B61B2D4000E3EF0 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		AA9FDBAE1B61B2D4000E3EF0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Spring/Info.plist; sourceTree = "<group>"; };
+		AA9FDBAF1B61B2D4000E3EF0 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		AA9FDBB01B61B2D4000E3EF0 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		AA9FDBB11B61B2D4000E3EF0 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		AA9FDBB21B61B2D4000E3EF0 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		AA9FDBB31B61B2D4000E3EF0 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		AA9FDBB41B61B2D4000E3EF0 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spring.h; path = Spring/Spring.h; sourceTree = "<group>"; };
+		AA9FDBB51B61B2D4000E3EF0 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		AA9FDBB61B61B2D4000E3EF0 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		AA9FDBB71B61B2D4000E3EF0 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		AA9FDBB81B61B2D4000E3EF0 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		AA9FDBB91B61B2D4000E3EF0 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		AA9FDBBA1B61B2D4000E3EF0 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		AA9FDBBB1B61B2D4000E3EF0 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		AA9FDBBC1B61B2D4000E3EF0 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		AA9FDBBD1B61B2D4000E3EF0 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		AA9FDBBE1B61B2D4000E3EF0 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		AA9FDBBF1B61B2D4000E3EF0 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
 		AAB941F61B5730E200902FF5 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		AAB941F81B573BF400902FF5 /* IMPWhiteColoredDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMPWhiteColoredDatePicker.swift; sourceTree = "<group>"; };
 		AAB941FA1B573F4700902FF5 /* UIImage+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Constants.swift"; sourceTree = "<group>"; };
@@ -126,11 +239,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		715E979B5761A1B592BB9234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7849F41D2BBC29AC4DEE1878 /* Pods.framework in Frameworks */,
+				585069D057FA269DC01EE0B5 /* Pods_Impulse_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA4D06461B5C0AE6001F3E86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A8A217E1B1B32E33F51440C /* Pods_Impulse_WatchKit_Extension.framework in Frameworks */,
+				CFA404090D6ABF3E1EC7BC9E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7838E12A5C3B33C1532E85F4 /* Pods.framework in Frameworks */,
+				1F44A0E980B42439713DB7F4 /* Pods_Impulse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +304,8 @@
 				AABBA4771B59A40B007C7334 /* NotificationCenter.framework */,
 				E75A30856F517DA1B21EF7ED /* Pods_ImpulseExtension.framework */,
 				3890EC9FFB746DFB6AA1F917 /* Pods_Impulse_WatchKit_Extension.framework */,
+				77131B73B04DB9352E1584AD /* Pods_Impulse.framework */,
+				8FCE07E13E708E4D617B0244 /* Pods_Impulse_WatchKit_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,6 +313,7 @@
 		AA4D064A1B5C0AE6001F3E86 /* Impulse WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				AA8883811B61B62B005223DD /* Timepiece */,
 				AA4D066A1B5C0FEA001F3E86 /* Impulse WatchKit Extension.entitlements */,
 				AA4D064D1B5C0AE6001F3E86 /* InterfaceController.swift */,
 				AA4D064F1B5C0AE6001F3E86 /* GlanceController.swift */,
@@ -258,9 +385,92 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AA88835F1B61B5D5005223DD /* Timepiece */ = {
+			isa = PBXGroup;
+			children = (
+				AA8883601B61B5E2005223DD /* Duration.swift */,
+				AA8883611B61B5E2005223DD /* Int+Timepiece.swift */,
+				AA8883621B61B5E2005223DD /* NSCalendar+Timepiece.swift */,
+				AA8883631B61B5E2005223DD /* NSCalendarUnit+Timepiece.swift */,
+				AA8883641B61B5E2005223DD /* NSDate+Timepiece.swift */,
+				AA8883651B61B5E2005223DD /* NSDateComponents+Timepiece.swift */,
+				AA8883661B61B5E2005223DD /* NSTimeInterval+Timepiece.swift */,
+				AA8883671B61B5E2005223DD /* String+Timepiece.swift */,
+			);
+			name = Timepiece;
+			sourceTree = "<group>";
+		};
+		AA8883701B61B613005223DD /* Timepiece */ = {
+			isa = PBXGroup;
+			children = (
+				AA8883711B61B624005223DD /* Duration.swift */,
+				AA8883721B61B624005223DD /* Int+Timepiece.swift */,
+				AA8883731B61B624005223DD /* NSCalendar+Timepiece.swift */,
+				AA8883741B61B624005223DD /* NSCalendarUnit+Timepiece.swift */,
+				AA8883751B61B624005223DD /* NSDate+Timepiece.swift */,
+				AA8883761B61B624005223DD /* NSDateComponents+Timepiece.swift */,
+				AA8883771B61B624005223DD /* NSTimeInterval+Timepiece.swift */,
+				AA8883781B61B624005223DD /* String+Timepiece.swift */,
+			);
+			name = Timepiece;
+			sourceTree = "<group>";
+		};
+		AA8883811B61B62B005223DD /* Timepiece */ = {
+			isa = PBXGroup;
+			children = (
+				AA8883821B61B638005223DD /* Duration.swift */,
+				AA8883831B61B638005223DD /* Int+Timepiece.swift */,
+				AA8883841B61B638005223DD /* NSCalendar+Timepiece.swift */,
+				AA8883851B61B638005223DD /* NSCalendarUnit+Timepiece.swift */,
+				AA8883861B61B638005223DD /* NSDate+Timepiece.swift */,
+				AA8883871B61B638005223DD /* NSDateComponents+Timepiece.swift */,
+				AA8883881B61B638005223DD /* NSTimeInterval+Timepiece.swift */,
+				AA8883891B61B638005223DD /* String+Timepiece.swift */,
+			);
+			name = Timepiece;
+			sourceTree = "<group>";
+		};
+		AA9FDBA11B61B2BF000E3EF0 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FDBA21B61B2D4000E3EF0 /* AsyncButton.swift */,
+				AA9FDBA31B61B2D4000E3EF0 /* AsyncImageView.swift */,
+				AA9FDBA41B61B2D4000E3EF0 /* AutoTextView.swift */,
+				AA9FDBA51B61B2D4000E3EF0 /* BlurView.swift */,
+				AA9FDBA61B61B2D4000E3EF0 /* DesignableButton.swift */,
+				AA9FDBA71B61B2D4000E3EF0 /* DesignableImageView.swift */,
+				AA9FDBA81B61B2D4000E3EF0 /* DesignableLabel.swift */,
+				AA9FDBA91B61B2D4000E3EF0 /* DesignableTabBarController.swift */,
+				AA9FDBAA1B61B2D4000E3EF0 /* DesignableTextField.swift */,
+				AA9FDBAB1B61B2D4000E3EF0 /* DesignableTextView.swift */,
+				AA9FDBAC1B61B2D4000E3EF0 /* DesignableView.swift */,
+				AA9FDBAD1B61B2D4000E3EF0 /* ImageLoader.swift */,
+				AA9FDBAE1B61B2D4000E3EF0 /* Info.plist */,
+				AA9FDBAF1B61B2D4000E3EF0 /* KeyboardLayoutConstraint.swift */,
+				AA9FDBB01B61B2D4000E3EF0 /* LoadingView.swift */,
+				AA9FDBB11B61B2D4000E3EF0 /* LoadingView.xib */,
+				AA9FDBB21B61B2D4000E3EF0 /* Misc.swift */,
+				AA9FDBB31B61B2D4000E3EF0 /* SoundPlayer.swift */,
+				AA9FDBB41B61B2D4000E3EF0 /* Spring.h */,
+				AA9FDBB51B61B2D4000E3EF0 /* Spring.swift */,
+				AA9FDBB61B61B2D4000E3EF0 /* SpringAnimation.swift */,
+				AA9FDBB71B61B2D4000E3EF0 /* SpringButton.swift */,
+				AA9FDBB81B61B2D4000E3EF0 /* SpringImageView.swift */,
+				AA9FDBB91B61B2D4000E3EF0 /* SpringLabel.swift */,
+				AA9FDBBA1B61B2D4000E3EF0 /* SpringTextField.swift */,
+				AA9FDBBB1B61B2D4000E3EF0 /* SpringTextView.swift */,
+				AA9FDBBC1B61B2D4000E3EF0 /* SpringView.swift */,
+				AA9FDBBD1B61B2D4000E3EF0 /* TransitionManager.swift */,
+				AA9FDBBE1B61B2D4000E3EF0 /* TransitionZoom.swift */,
+				AA9FDBBF1B61B2D4000E3EF0 /* UnwindSegue.swift */,
+			);
+			name = Spring;
+			sourceTree = "<group>";
+		};
 		AABBA4791B59A40B007C7334 /* ImpulseExtension */ = {
 			isa = PBXGroup;
 			children = (
+				AA8883701B61B613005223DD /* Timepiece */,
 				AABBA4881B59A75D007C7334 /* ImpulseExtension.entitlements */,
 				AABBA47C1B59A40B007C7334 /* ImpulseExtensionViewController.swift */,
 				AABBA47E1B59A40B007C7334 /* ImpulseExtension.storyboard */,
@@ -306,6 +516,8 @@
 		AAE7F3871B55E607005DC836 /* Impulse */ = {
 			isa = PBXGroup;
 			children = (
+				AA88835F1B61B5D5005223DD /* Timepiece */,
+				AA9FDBA11B61B2BF000E3EF0 /* Spring */,
 				AABBA4871B59A6FE007C7334 /* Impulse.entitlements */,
 				AA578B741B55F996000BDC17 /* Extensions */,
 				AA578B711B55F2BC000BDC17 /* Storyboards */,
@@ -371,7 +583,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA4D06681B5C0AE7001F3E86 /* Build configuration list for PBXNativeTarget "Impulse WatchKit App" */;
 			buildPhases = (
+				9D70395EC002BB92BBEBF91A /* Check Pods Manifest.lock */,
 				AA4D06531B5C0AE6001F3E86 /* Resources */,
+				715E979B5761A1B592BB9234 /* Frameworks */,
+				FCD0F11B982A64D8B141D9C1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -543,6 +758,8 @@
 				AAE7F3901B55E607005DC836 /* Age.storyboard in Resources */,
 				AAB941F71B5730E200902FF5 /* Settings.storyboard in Resources */,
 				AAE7F3951B55E607005DC836 /* LaunchScreen.xib in Resources */,
+				AA9FDBCF1B61B2D4000E3EF0 /* LoadingView.xib in Resources */,
+				AA9FDBCC1B61B2D4000E3EF0 /* Info.plist in Resources */,
 				AAE7F3921B55E607005DC836 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,7 +816,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Impulse/Pods-Impulse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D70395EC002BB92BBEBF91A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BAFE9FF70E2EC28E89D33E93 /* Copy Pods Resources */ = {
@@ -662,6 +894,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FCD0F11B982A64D8B141D9C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Impulse WatchKit App/Pods-Impulse WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -669,8 +916,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8883911B61B638005223DD /* String+Timepiece.swift in Sources */,
+				AA88838F1B61B638005223DD /* NSDateComponents+Timepiece.swift in Sources */,
+				AA88838A1B61B638005223DD /* Duration.swift in Sources */,
+				AA8883901B61B638005223DD /* NSTimeInterval+Timepiece.swift in Sources */,
+				AA88838B1B61B638005223DD /* Int+Timepiece.swift in Sources */,
 				AA4D064E1B5C0AE6001F3E86 /* InterfaceController.swift in Sources */,
 				AA4D06501B5C0AE6001F3E86 /* GlanceController.swift in Sources */,
+				AA88838D1B61B638005223DD /* NSCalendarUnit+Timepiece.swift in Sources */,
+				AA88838E1B61B638005223DD /* NSDate+Timepiece.swift in Sources */,
+				AA88838C1B61B638005223DD /* NSCalendar+Timepiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,7 +933,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8883801B61B624005223DD /* String+Timepiece.swift in Sources */,
+				AA88837E1B61B624005223DD /* NSDateComponents+Timepiece.swift in Sources */,
+				AA88837B1B61B624005223DD /* NSCalendar+Timepiece.swift in Sources */,
 				AABBA47D1B59A40B007C7334 /* ImpulseExtensionViewController.swift in Sources */,
+				AA88837D1B61B624005223DD /* NSDate+Timepiece.swift in Sources */,
+				AA88837C1B61B624005223DD /* NSCalendarUnit+Timepiece.swift in Sources */,
+				AA8883791B61B624005223DD /* Duration.swift in Sources */,
+				AA88837F1B61B624005223DD /* NSTimeInterval+Timepiece.swift in Sources */,
+				AA88837A1B61B624005223DD /* Int+Timepiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,13 +949,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA88836F1B61B5E2005223DD /* String+Timepiece.swift in Sources */,
+				AA9FDBC51B61B2D4000E3EF0 /* DesignableImageView.swift in Sources */,
+				AA9FDBC71B61B2D4000E3EF0 /* DesignableTabBarController.swift in Sources */,
+				AA9FDBD21B61B2D4000E3EF0 /* Spring.swift in Sources */,
+				AA9FDBDB1B61B2D4000E3EF0 /* TransitionZoom.swift in Sources */,
 				AA578B731B55F450000BDC17 /* IMPGradientView.swift in Sources */,
+				AA8883691B61B5E2005223DD /* Int+Timepiece.swift in Sources */,
+				AA9FDBC91B61B2D4000E3EF0 /* DesignableTextView.swift in Sources */,
 				AAB941F91B573BF400902FF5 /* IMPWhiteColoredDatePicker.swift in Sources */,
+				AA9FDBD01B61B2D4000E3EF0 /* Misc.swift in Sources */,
+				AA9FDBCE1B61B2D4000E3EF0 /* LoadingView.swift in Sources */,
 				AAB941FD1B57468B00902FF5 /* SettingsViewController.swift in Sources */,
+				AA88836A1B61B5E2005223DD /* NSCalendar+Timepiece.swift in Sources */,
 				AAE7F38D1B55E607005DC836 /* AgeViewController.swift in Sources */,
+				AA9FDBD91B61B2D4000E3EF0 /* SpringView.swift in Sources */,
+				AA9FDBC31B61B2D4000E3EF0 /* BlurView.swift in Sources */,
+				AA9FDBCA1B61B2D4000E3EF0 /* DesignableView.swift in Sources */,
+				AA88836D1B61B5E2005223DD /* NSDateComponents+Timepiece.swift in Sources */,
+				AA9FDBD81B61B2D4000E3EF0 /* SpringTextView.swift in Sources */,
+				AA9FDBD71B61B2D4000E3EF0 /* SpringTextField.swift in Sources */,
+				AA9FDBD11B61B2D4000E3EF0 /* SoundPlayer.swift in Sources */,
+				AA9FDBCB1B61B2D4000E3EF0 /* ImageLoader.swift in Sources */,
+				AA9FDBC21B61B2D4000E3EF0 /* AutoTextView.swift in Sources */,
 				AAB941FB1B573F4700902FF5 /* UIImage+Constants.swift in Sources */,
+				AA88836E1B61B5E2005223DD /* NSTimeInterval+Timepiece.swift in Sources */,
+				AA9FDBDC1B61B2D4000E3EF0 /* UnwindSegue.swift in Sources */,
+				AA9FDBC11B61B2D4000E3EF0 /* AsyncImageView.swift in Sources */,
+				AA9FDBD31B61B2D4000E3EF0 /* SpringAnimation.swift in Sources */,
+				AA9FDBCD1B61B2D4000E3EF0 /* KeyboardLayoutConstraint.swift in Sources */,
+				AA88836B1B61B5E2005223DD /* NSCalendarUnit+Timepiece.swift in Sources */,
 				AAE7F38B1B55E607005DC836 /* AppDelegate.swift in Sources */,
+				AA8883681B61B5E2005223DD /* Duration.swift in Sources */,
+				AA88836C1B61B5E2005223DD /* NSDate+Timepiece.swift in Sources */,
+				AA9FDBC81B61B2D4000E3EF0 /* DesignableTextField.swift in Sources */,
+				AA9FDBDA1B61B2D4000E3EF0 /* TransitionManager.swift in Sources */,
+				AA9FDBC01B61B2D4000E3EF0 /* AsyncButton.swift in Sources */,
 				AA578B761B55F9AE000BDC17 /* UIColor+Constants.swift in Sources */,
+				AA9FDBD61B61B2D4000E3EF0 /* SpringLabel.swift in Sources */,
+				AA9FDBD51B61B2D4000E3EF0 /* SpringImageView.swift in Sources */,
+				AA9FDBC61B61B2D4000E3EF0 /* DesignableLabel.swift in Sources */,
+				AA9FDBD41B61B2D4000E3EF0 /* SpringButton.swift in Sources */,
+				AA9FDBC41B61B2D4000E3EF0 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,6 +1093,7 @@
 		};
 		AA4D06661B5C0AE7001F3E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -813,6 +1112,7 @@
 		};
 		AA4D06671B5C0AE7001F3E86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF854EB7DD22CCCFF269E2DB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				IBSC_MODULE = Impulse_WatchKit_Extension;
@@ -840,7 +1140,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -855,7 +1155,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -876,6 +1176,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -895,10 +1196,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -920,6 +1223,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -933,9 +1237,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -946,12 +1252,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Impulse/Impulse.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Impulse/Supporting Files/Info.plist";
+				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -961,12 +1269,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Impulse/Impulse.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Impulse/Supporting Files/Info.plist";
+				INSTALL_PATH = /Applications;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -985,6 +1295,7 @@
 				INFOPLIST_FILE = "ImpulseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impulse.app/Impulse";
 			};
 			name = Debug;
@@ -1000,6 +1311,7 @@
 				INFOPLIST_FILE = "ImpulseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impulse.app/Impulse";
 			};
 			name = Release;

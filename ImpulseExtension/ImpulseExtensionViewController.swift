@@ -8,7 +8,6 @@
 
 import UIKit
 import NotificationCenter
-import Timepiece
 
 class ImpulseExtensionViewController: UIViewController, NCWidgetProviding {
 
@@ -23,19 +22,19 @@ class ImpulseExtensionViewController: UIViewController, NCWidgetProviding {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        scheduleTimer()
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
 
         self.preferredContentSize = CGSizeMake(0, 35);
-        scheduleTimer()
     }
     
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
         scheduleTimer()
 
-        // If an error is encountered, use NCUpdateResult.Failed
-        // If there's no update required, use NCUpdateResult.NoData
-        // If there's an update, use NCUpdateResult.NewData
-
-        completionHandler(NCUpdateResult.NewData)
+        completionHandler(.NewData)
     }
 
     func widgetMarginInsetsForProposedMarginInsets(defaultMarginInsets: UIEdgeInsets) -> UIEdgeInsets {

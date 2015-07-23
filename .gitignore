@@ -20,5 +20,8 @@ DerivedData
 # CocoaPods
 Pods/
 
+# Icons
+Icons/
+
 # OS X
 .DS_Store

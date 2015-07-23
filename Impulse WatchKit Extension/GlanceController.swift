@@ -8,7 +8,6 @@
 
 import WatchKit
 import Foundation
-import Timepiece
 
 
 class GlanceController: WKInterfaceController {
@@ -47,7 +46,7 @@ class GlanceController: WKInterfaceController {
     private func scheduleTimer() {
         timer?.invalidate()
 
-        timer = NSTimer(timeInterval: 1, target: self, selector: "timerFired", userInfo: nil, repeats: true)
+        timer = NSTimer(timeInterval: 0.3, target: self, selector: "timerFired", userInfo: nil, repeats: true)
         NSRunLoop.currentRunLoop().addTimer(timer!, forMode: NSDefaultRunLoopMode)
     }
 

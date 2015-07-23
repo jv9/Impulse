@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Spring
-import Timepiece
 
 let defaults = NSUserDefaults(suiteName: "group.Jasdev.Impulse")!
 let defaultsKeyForAge = "imp_Age"
