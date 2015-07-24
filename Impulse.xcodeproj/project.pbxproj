@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F44A0E980B42439713DB7F4 /* Pods_Impulse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77131B73B04DB9352E1584AD /* Pods_Impulse.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		516F79A569484218364C3D53 /* Pods_ImpulseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75A30856F517DA1B21EF7ED /* Pods_ImpulseExtension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		585069D057FA269DC01EE0B5 /* Pods_Impulse_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCE07E13E708E4D617B0244 /* Pods_Impulse_WatchKit_App.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		5917E87EEFDFF66FE25BFCD7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		7838E12A5C3B33C1532E85F4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		7849F41D2BBC29AC4DEE1878 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		9A8A217E1B1B32E33F51440C /* Pods_Impulse_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890EC9FFB746DFB6AA1F917 /* Pods_Impulse_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AA4D064E1B5C0AE6001F3E86 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D064D1B5C0AE6001F3E86 /* InterfaceController.swift */; };
 		AA4D06501B5C0AE6001F3E86 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D064F1B5C0AE6001F3E86 /* GlanceController.swift */; };
 		AA4D06521B5C0AE6001F3E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4D06511B5C0AE6001F3E86 /* Images.xcassets */; };
@@ -90,7 +83,6 @@
 		AAE7F3921B55E607005DC836 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F3911B55E607005DC836 /* Images.xcassets */; };
 		AAE7F3951B55E607005DC836 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F3931B55E607005DC836 /* LaunchScreen.xib */; };
 		AAE7F3A11B55E607005DC836 /* ImpulseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F3A01B55E607005DC836 /* ImpulseTests.swift */; };
-		CFA404090D6ABF3E1EC7BC9E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266DCBBE2DF713C20EEDB3FB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,11 +133,6 @@
 
 /* Begin PBXFileReference section */
 		266DCBBE2DF713C20EEDB3FB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D676818EF918FDBE2F38172 /* Pods-Impulse WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impulse WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Impulse WatchKit Extension/Pods-Impulse WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		3890EC9FFB746DFB6AA1F917 /* Pods_Impulse_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impulse_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		77131B73B04DB9352E1584AD /* Pods_Impulse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impulse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FCE07E13E708E4D617B0244 /* Pods_Impulse_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impulse_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4D06491B5C0AE6001F3E86 /* Impulse WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Impulse WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4D064C1B5C0AE6001F3E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4D064D1B5C0AE6001F3E86 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -233,9 +220,6 @@
 		AAE7F39A1B55E607005DC836 /* ImpulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpulseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE7F39F1B55E607005DC836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE7F3A01B55E607005DC836 /* ImpulseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpulseTests.swift; sourceTree = "<group>"; };
-		BF854EB7DD22CCCFF269E2DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		DBDFFE67B3738BAAAE7C9D25 /* Pods-Impulse WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Impulse WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Impulse WatchKit Extension/Pods-Impulse WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		E75A30856F517DA1B21EF7ED /* Pods_ImpulseExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImpulseExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,8 +227,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7849F41D2BBC29AC4DEE1878 /* Pods.framework in Frameworks */,
-				585069D057FA269DC01EE0B5 /* Pods_Impulse_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +234,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8A217E1B1B32E33F51440C /* Pods_Impulse_WatchKit_Extension.framework in Frameworks */,
-				CFA404090D6ABF3E1EC7BC9E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABBA4781B59A40B007C7334 /* NotificationCenter.framework in Frameworks */,
-				5917E87EEFDFF66FE25BFCD7 /* Pods.framework in Frameworks */,
-				516F79A569484218364C3D53 /* Pods_ImpulseExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +249,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7838E12A5C3B33C1532E85F4 /* Pods.framework in Frameworks */,
-				1F44A0E980B42439713DB7F4 /* Pods_Impulse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,26 +262,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16146B228029CBC2A40825E4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */,
-				BF854EB7DD22CCCFF269E2DB /* Pods.release.xcconfig */,
-				DBDFFE67B3738BAAAE7C9D25 /* Pods-Impulse WatchKit Extension.debug.xcconfig */,
-				2D676818EF918FDBE2F38172 /* Pods-Impulse WatchKit Extension.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		293BE815A379E0C43113FCBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				266DCBBE2DF713C20EEDB3FB /* Pods.framework */,
 				AABBA4771B59A40B007C7334 /* NotificationCenter.framework */,
-				E75A30856F517DA1B21EF7ED /* Pods_ImpulseExtension.framework */,
-				3890EC9FFB746DFB6AA1F917 /* Pods_Impulse_WatchKit_Extension.framework */,
-				77131B73B04DB9352E1584AD /* Pods_Impulse.framework */,
-				8FCE07E13E708E4D617B0244 /* Pods_Impulse_WatchKit_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -496,7 +457,6 @@
 				AA4D064A1B5C0AE6001F3E86 /* Impulse WatchKit Extension */,
 				AA4D06591B5C0AE7001F3E86 /* Impulse WatchKit App */,
 				AAE7F3861B55E607005DC836 /* Products */,
-				16146B228029CBC2A40825E4 /* Pods */,
 				293BE815A379E0C43113FCBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -563,11 +523,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA4D06691B5C0AE7001F3E86 /* Build configuration list for PBXNativeTarget "Impulse WatchKit Extension" */;
 			buildPhases = (
-				405A4F348D51A09B602C9B16 /* Check Pods Manifest.lock */,
 				AA4D06451B5C0AE6001F3E86 /* Sources */,
 				AA4D06461B5C0AE6001F3E86 /* Frameworks */,
 				AA4D06471B5C0AE6001F3E86 /* Resources */,
-				00AF49C852FF35066983FA34 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -583,10 +541,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA4D06681B5C0AE7001F3E86 /* Build configuration list for PBXNativeTarget "Impulse WatchKit App" */;
 			buildPhases = (
-				9D70395EC002BB92BBEBF91A /* Check Pods Manifest.lock */,
 				AA4D06531B5C0AE6001F3E86 /* Resources */,
 				715E979B5761A1B592BB9234 /* Frameworks */,
-				FCD0F11B982A64D8B141D9C1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -601,11 +557,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AABBA4851B59A40B007C7334 /* Build configuration list for PBXNativeTarget "ImpulseExtension" */;
 			buildPhases = (
-				C4C314CCC4D6ACA95E13DAFB /* Check Pods Manifest.lock */,
 				AABBA4721B59A40B007C7334 /* Sources */,
 				AABBA4731B59A40B007C7334 /* Frameworks */,
 				AABBA4741B59A40B007C7334 /* Resources */,
-				BAFE9FF70E2EC28E89D33E93 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -620,12 +574,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAE7F3A41B55E607005DC836 /* Build configuration list for PBXNativeTarget "Impulse" */;
 			buildPhases = (
-				F96CAF537E8E387631B1A0A1 /* Check Pods Manifest.lock */,
 				AAE7F3811B55E607005DC836 /* Sources */,
 				AAE7F3821B55E607005DC836 /* Frameworks */,
 				AAE7F3831B55E607005DC836 /* Resources */,
-				8637E04AF466A3AE57422FF0 /* Embed Pods Frameworks */,
-				F629496BCBF02852FF4B1160 /* Copy Pods Resources */,
 				AABBA4861B59A40B007C7334 /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -772,144 +723,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		00AF49C852FF35066983FA34 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Impulse WatchKit Extension/Pods-Impulse WatchKit Extension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		405A4F348D51A09B602C9B16 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8637E04AF466A3AE57422FF0 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Impulse/Pods-Impulse-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D70395EC002BB92BBEBF91A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BAFE9FF70E2EC28E89D33E93 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImpulseExtension/Pods-ImpulseExtension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4C314CCC4D6ACA95E13DAFB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F629496BCBF02852FF4B1160 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F96CAF537E8E387631B1A0A1 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FCD0F11B982A64D8B141D9C1 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Impulse WatchKit App/Pods-Impulse WatchKit App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA4D06451B5C0AE6001F3E86 /* Sources */ = {
@@ -1059,7 +872,6 @@
 /* Begin XCBuildConfiguration section */
 		AA4D06641B5C0AE7001F3E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBDFFE67B3738BAAAE7C9D25 /* Pods-Impulse WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Impulse WatchKit Extension/Impulse WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1072,13 +884,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		AA4D06651B5C0AE7001F3E86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D676818EF918FDBE2F38172 /* Pods-Impulse WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Impulse WatchKit Extension/Impulse WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1087,13 +898,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 		AA4D06661B5C0AE7001F3E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1104,7 +914,7 @@
 				INFOPLIST_FILE = "Impulse WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
@@ -1112,14 +922,13 @@
 		};
 		AA4D06671B5C0AE7001F3E86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF854EB7DD22CCCFF269E2DB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				IBSC_MODULE = Impulse_WatchKit_Extension;
 				INFOPLIST_FILE = "Impulse WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
@@ -1127,7 +936,6 @@
 		};
 		AABBA4831B59A40B007C7334 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ImpulseExtension/ImpulseExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1140,13 +948,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		AABBA4841B59A40B007C7334 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF854EB7DD22CCCFF269E2DB /* Pods.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ImpulseExtension/ImpulseExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1155,7 +962,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -1248,7 +1055,6 @@
 		};
 		AAE7F3A51B55E607005DC836 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74340F11AFD44FF2C8615C8C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Impulse/Impulse.entitlements;
@@ -1265,7 +1071,6 @@
 		};
 		AAE7F3A61B55E607005DC836 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF854EB7DD22CCCFF269E2DB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Impulse/Impulse.entitlements;
@@ -1295,7 +1100,7 @@
 				INFOPLIST_FILE = "ImpulseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impulse.app/Impulse";
 			};
 			name = Debug;
@@ -1311,7 +1116,7 @@
 				INFOPLIST_FILE = "ImpulseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impulse.app/Impulse";
 			};
 			name = Release;
