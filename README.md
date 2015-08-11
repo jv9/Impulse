@@ -7,7 +7,7 @@ I tried to submit this to the store, but the binary got rejected since "the usef
 ## Additional Features
 
 - Today Extension
-- Watch app and Glance
+- Watch app and Glance (to install make sure to build/run the WatchKit App and Glance targets, respectively)
 
 ## Installation
 
