@@ -1,13 +1,5 @@
-//
-//  UIImage+Constants.swift
-//  Impulse
-//
-//  Created by Jasdev Singh on 7/15/15.
-//  Copyright (c) 2015 Jasdev. All rights reserved.
-//
-
-import Foundation
 import UIKit
+import Foundation
 
 extension UIImage {
     class var imp_cancelIcon: UIImage {

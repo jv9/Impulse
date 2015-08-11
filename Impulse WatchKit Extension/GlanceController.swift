@@ -1,12 +1,5 @@
-//
-//  GlanceController.swift
-//  Impulse WatchKit Extension
-//
-//  Created by Jasdev Singh on 7/19/15.
-//  Copyright (c) 2015 Jasdev. All rights reserved.
-//
-
 import WatchKit
+import Timepiece
 import Foundation
 
 

@@ -1,12 +1,5 @@
-//
-//  SettingsViewController.swift
-//  Impulse
-//
-//  Created by Jasdev Singh on 7/15/15.
-//  Copyright (c) 2015 Jasdev. All rights reserved.
-//
-
 import UIKit
+import Spring
 
 let defaults = NSUserDefaults(suiteName: "group.Jasdev.Impulse")!
 let defaultsKeyForAge = "imp_Age"
@@ -43,8 +36,6 @@ class SettingsViewController: UIViewController {
     }
 
     @IBAction func confirmPressed(sender: UIButton) {
-        // TODO: Save to NSUserDefaults
-
         containerView.animation = "zoomOut"
         containerView.duration = animationTime
         delegate?.setBirthday(datePicker.date)
