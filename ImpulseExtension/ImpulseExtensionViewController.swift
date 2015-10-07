@@ -25,7 +25,7 @@ class ImpulseExtensionViewController: UIViewController, NCWidgetProviding {
         self.preferredContentSize = CGSizeMake(0, 35);
     }
     
-    func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
+    func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)) {
         scheduleTimer()
 
         completionHandler(.NewData)

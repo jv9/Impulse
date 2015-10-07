@@ -1,16 +1,31 @@
 PODS:
   - Reveal-iOS-SDK (1.5.1)
   - Spring (1.0.3)
-  - Timepiece (0.4.0)
+  - Timepiece
 
 DEPENDENCIES:
   - Reveal-iOS-SDK
-  - Spring (~> 1.0.3)
-  - Timepiece
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - Timepiece (from `git@github.com:naoty/Timepiece.git`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+  Timepiece:
+    :git: git@github.com:naoty/Timepiece.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+  Timepiece:
+    :commit: 62d1911661c5109bdab6ae95e3dcea7064fbae83
+    :git: git@github.com:naoty/Timepiece.git
 
 SPEC CHECKSUMS:
   Reveal-iOS-SDK: c9c55cad2729c85f6ced415f1b21857c9a2d8ef9
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
-  Timepiece: d38302bf6fce6146e9d8feb289e0837811ee1342
+  Timepiece: a948442fc6792a0cd1c466d916bf67bc2700c902
 
 COCOAPODS: 0.38.2

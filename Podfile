@@ -1,15 +1,16 @@
-platform :ios, "8.0"
+platform :ios, "9.0"
 
 use_frameworks!
 
 pod 'Reveal-iOS-SDK', :configurations => ['Debug']
-pod 'Spring', '~> 1.0.3'
-pod 'Timepiece'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
+pod "Timepiece", :git => 'git@github.com:naoty/Timepiece.git'
 
 target :ImpulseExtension, :exclusive => true do
-    pod 'Timepiece'
+    pod "Timepiece", :git => 'git@github.com:naoty/Timepiece.git'
 end
 
 target :'Impulse WatchKit Extension', :exclusive => true do
-    pod 'Timepiece'
+    platform :watchos, '2.0'
+    pod "Timepiece", :git => 'git@github.com:naoty/Timepiece.git'
 end

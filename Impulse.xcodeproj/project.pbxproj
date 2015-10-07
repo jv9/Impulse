@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660033BE53718726A19BA935 /* Pods_ImpulseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B560E1A40960E7BAE0B09 /* Pods_ImpulseExtension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6AA7925D6D8FC2C50AE8387B /* Pods_Impulse_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6706D65B0CEA4011E0632D /* Pods_Impulse_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AA4D064E1B5C0AE6001F3E86 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D064D1B5C0AE6001F3E86 /* InterfaceController.swift */; };
 		AA4D06501B5C0AE6001F3E86 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D064F1B5C0AE6001F3E86 /* GlanceController.swift */; };
 		AA4D06521B5C0AE6001F3E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4D06511B5C0AE6001F3E86 /* Images.xcassets */; };
-		AA4D06561B5C0AE7001F3E86 /* Impulse WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = AA4D06551B5C0AE6001F3E86 /* Impulse WatchKit App.app */; };
 		AA4D065E1B5C0AE7001F3E86 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4D065C1B5C0AE7001F3E86 /* Interface.storyboard */; };
 		AA4D06601B5C0AE7001F3E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4D065F1B5C0AE7001F3E86 /* Images.xcassets */; };
-		AA4D06631B5C0AE7001F3E86 /* Impulse WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA4D06491B5C0AE6001F3E86 /* Impulse WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA578B731B55F450000BDC17 /* IMPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA578B721B55F450000BDC17 /* IMPGradientView.swift */; };
 		AA578B761B55F9AE000BDC17 /* UIColor+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA578B751B55F9AE000BDC17 /* UIColor+Constants.swift */; };
 		AAB941F71B5730E200902FF5 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB941F61B5730E200902FF5 /* Settings.storyboard */; };
 		AAB941F91B573BF400902FF5 /* IMPWhiteColoredDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB941F81B573BF400902FF5 /* IMPWhiteColoredDatePicker.swift */; };
 		AAB941FB1B573F4700902FF5 /* UIImage+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB941FA1B573F4700902FF5 /* UIImage+Constants.swift */; };
 		AAB941FD1B57468B00902FF5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB941FC1B57468B00902FF5 /* SettingsViewController.swift */; };
+		AABAF7721BC58A5400B043BE /* Pods_ImpulseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAF7711BC58A5400B043BE /* Pods_ImpulseExtension.framework */; };
 		AABBA4781B59A40B007C7334 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBA4771B59A40B007C7334 /* NotificationCenter.framework */; };
 		AABBA47D1B59A40B007C7334 /* ImpulseExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBA47C1B59A40B007C7334 /* ImpulseExtensionViewController.swift */; };
 		AABBA47F1B59A40B007C7334 /* ImpulseExtension.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABBA47E1B59A40B007C7334 /* ImpulseExtension.storyboard */; };
 		AABBA4821B59A40B007C7334 /* ImpulseExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AABBA4761B59A40B007C7334 /* ImpulseExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAD60D4D1BC57F9D00598D4E /* Impulse WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA4D06491B5C0AE6001F3E86 /* Impulse WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAD60D501BC57F9D00598D4E /* Impulse WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AA4D06551B5C0AE6001F3E86 /* Impulse WatchKit App.app */; };
 		AAE7F38B1B55E607005DC836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F38A1B55E607005DC836 /* AppDelegate.swift */; };
 		AAE7F38D1B55E607005DC836 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE7F38C1B55E607005DC836 /* AgeViewController.swift */; };
 		AAE7F3901B55E607005DC836 /* Age.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE7F38E1B55E607005DC836 /* Age.storyboard */; };
@@ -36,26 +36,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA4D06571B5C0AE7001F3E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAE7F37D1B55E607005DC836 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA4D06541B5C0AE6001F3E86;
-			remoteInfo = "Impulse WatchKit App";
-		};
-		AA4D06611B5C0AE7001F3E86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAE7F37D1B55E607005DC836 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA4D06481B5C0AE6001F3E86;
-			remoteInfo = "Impulse WatchKit Extension";
-		};
 		AABBA4801B59A40B007C7334 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AAE7F37D1B55E607005DC836 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AABBA4751B59A40B007C7334;
 			remoteInfo = ImpulseExtension;
+		};
+		AAD60D4B1BC57F9D00598D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE7F37D1B55E607005DC836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4D06481B5C0AE6001F3E86;
+			remoteInfo = "Impulse WatchKit Extension";
+		};
+		AAD60D4E1BC57F9D00598D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE7F37D1B55E607005DC836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4D06541B5C0AE6001F3E86;
+			remoteInfo = "Impulse WatchKit App";
 		};
 		AAE7F39B1B55E607005DC836 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -73,10 +73,31 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				AA4D06631B5C0AE7001F3E86 /* Impulse WatchKit Extension.appex in Embed App Extensions */,
 				AABBA4821B59A40B007C7334 /* ImpulseExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD60D511BC57F9D00598D4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AAD60D4D1BC57F9D00598D4E /* Impulse WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD60D521BC57F9D00598D4E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AAD60D501BC57F9D00598D4E /* Impulse WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -106,6 +127,7 @@
 		AAB941F81B573BF400902FF5 /* IMPWhiteColoredDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMPWhiteColoredDatePicker.swift; sourceTree = "<group>"; };
 		AAB941FA1B573F4700902FF5 /* UIImage+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Constants.swift"; sourceTree = "<group>"; };
 		AAB941FC1B57468B00902FF5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AABAF7711BC58A5400B043BE /* Pods_ImpulseExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_ImpulseExtension.framework; path = "Pods/../build/Debug-iphoneos/Pods_ImpulseExtension.framework"; sourceTree = "<group>"; };
 		AABBA4761B59A40B007C7334 /* ImpulseExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ImpulseExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABBA4771B59A40B007C7334 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		AABBA47B1B59A40B007C7334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -146,8 +168,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABAF7721BC58A5400B043BE /* Pods_ImpulseExtension.framework in Frameworks */,
 				AABBA4781B59A40B007C7334 /* NotificationCenter.framework in Frameworks */,
-				660033BE53718726A19BA935 /* Pods_ImpulseExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +207,7 @@
 		293BE815A379E0C43113FCBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AABAF7711BC58A5400B043BE /* Pods_ImpulseExtension.framework */,
 				266DCBBE2DF713C20EEDB3FB /* Pods.framework */,
 				AABBA4771B59A40B007C7334 /* NotificationCenter.framework */,
 				4C6706D65B0CEA4011E0632D /* Pods_Impulse_WatchKit_Extension.framework */,
@@ -369,12 +392,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				AA4D06581B5C0AE7001F3E86 /* PBXTargetDependency */,
 			);
 			name = "Impulse WatchKit Extension";
 			productName = "Impulse WatchKit Extension";
 			productReference = AA4D06491B5C0AE6001F3E86 /* Impulse WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit-extension";
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 		AA4D06541B5C0AE6001F3E86 /* Impulse WatchKit App */ = {
 			isa = PBXNativeTarget;
@@ -382,15 +404,17 @@
 			buildPhases = (
 				AA4D06531B5C0AE6001F3E86 /* Resources */,
 				715E979B5761A1B592BB9234 /* Frameworks */,
+				AAD60D511BC57F9D00598D4E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AAD60D4C1BC57F9D00598D4E /* PBXTargetDependency */,
 			);
 			name = "Impulse WatchKit App";
 			productName = "Impulse WatchKit App";
 			productReference = AA4D06551B5C0AE6001F3E86 /* Impulse WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp";
+			productType = "com.apple.product-type.application.watchapp2";
 		};
 		AABBA4751B59A40B007C7334 /* ImpulseExtension */ = {
 			isa = PBXNativeTarget;
@@ -422,12 +446,13 @@
 				AABBA4861B59A40B007C7334 /* Embed App Extensions */,
 				7659B015CFFBCB43445B4C11 /* Embed Pods Frameworks */,
 				AD2BDDEFB247BA94998944F6 /* Copy Pods Resources */,
+				AAD60D521BC57F9D00598D4E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				AABBA4811B59A40B007C7334 /* PBXTargetDependency */,
-				AA4D06621B5C0AE7001F3E86 /* PBXTargetDependency */,
+				AAD60D4F1BC57F9D00598D4E /* PBXTargetDependency */,
 			);
 			name = Impulse;
 			productName = Impulse;
@@ -458,7 +483,8 @@
 		AAE7F37D1B55E607005DC836 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Jasdev;
 				TargetAttributes = {
 					AA4D06481B5C0AE6001F3E86 = {
@@ -472,6 +498,7 @@
 					};
 					AA4D06541B5C0AE6001F3E86 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4285F5WADF;
 					};
 					AABBA4751B59A40B007C7334 = {
 						CreatedOnToolsVersion = 6.4;
@@ -523,7 +550,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4D06561B5C0AE7001F3E86 /* Impulse WatchKit App.app in Resources */,
 				AA4D06521B5C0AE6001F3E86 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -716,20 +742,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AA4D06581B5C0AE7001F3E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA4D06541B5C0AE6001F3E86 /* Impulse WatchKit App */;
-			targetProxy = AA4D06571B5C0AE7001F3E86 /* PBXContainerItemProxy */;
-		};
-		AA4D06621B5C0AE7001F3E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA4D06481B5C0AE6001F3E86 /* Impulse WatchKit Extension */;
-			targetProxy = AA4D06611B5C0AE7001F3E86 /* PBXContainerItemProxy */;
-		};
 		AABBA4811B59A40B007C7334 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AABBA4751B59A40B007C7334 /* ImpulseExtension */;
 			targetProxy = AABBA4801B59A40B007C7334 /* PBXContainerItemProxy */;
+		};
+		AAD60D4C1BC57F9D00598D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4D06481B5C0AE6001F3E86 /* Impulse WatchKit Extension */;
+			targetProxy = AAD60D4B1BC57F9D00598D4E /* PBXContainerItemProxy */;
+		};
+		AAD60D4F1BC57F9D00598D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4D06541B5C0AE6001F3E86 /* Impulse WatchKit App */;
+			targetProxy = AAD60D4E1BC57F9D00598D4E /* PBXContainerItemProxy */;
 		};
 		AAE7F39C1B55E607005DC836 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -775,15 +801,20 @@
 				CODE_SIGN_ENTITLEMENTS = "Impulse WatchKit Extension/Impulse WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Impulse WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasdev.Impulse.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -794,11 +825,16 @@
 				CODE_SIGN_ENTITLEMENTS = "Impulse WatchKit Extension/Impulse WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Impulse WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasdev.Impulse.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -806,17 +842,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				IBSC_MODULE = Impulse_WatchKit_Extension;
 				INFOPLIST_FILE = "Impulse WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasdev.Impulse.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -824,13 +863,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Impulse_WatchKit_Extension;
 				INFOPLIST_FILE = "Impulse WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasdev.Impulse.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -841,12 +883,15 @@
 				CODE_SIGN_ENTITLEMENTS = ImpulseExtension/ImpulseExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ImpulseExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasdev.Impulse.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -860,8 +905,11 @@
 				CODE_SIGN_ENTITLEMENTS = ImpulseExtension/ImpulseExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ImpulseExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasdev.Impulse.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -890,6 +938,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -965,7 +1014,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Impulse/Supporting Files/Info.plist";
 				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasdev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = NO;
@@ -982,7 +1033,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Impulse/Supporting Files/Info.plist";
 				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasdev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = NO;
@@ -993,16 +1046,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ImpulseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasdev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impulse.app/Impulse";
@@ -1013,12 +1064,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "ImpulseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasdev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Impulse.app/Impulse";
